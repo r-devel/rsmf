@@ -8,7 +8,7 @@ This repository is for managing work related to the project "Enabling the Next G
    
 For more details see the [R Blog post](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/index.html) announcing the project.
 
-This repository is intended primarily for discussions among the [RSMF Project Team](#rsmf-project-team) and partner collaborators. However, we welcome comments from experienced R developers/contributors and some projects will be open to external collaborators.
+This repository is intended primarily for discussions among the [RSMF Project Team](#rsmf-project-team) and partner collaborators. However, we welcome comments from experienced R developers/contributors.
 
 > [!NOTE]  
 > Work under this project is not suitable for novice contributors. If you are new to contributing to R, we recommend visiting the [R Contributor Site](https://contributor.r-project.org/) to find out how to get started.
@@ -51,7 +51,6 @@ We are grateful to our partners that are providing additional support:
 * Michael Chirico (Sponsored contributor, Google)
 * Mossa Reimert (Sponsored contributor, A2-Ai)
 * Kevin Ushey (Sponsored contributor, Posit)
-* Lluís Revilla
 
 ### Translation Infrastructure Managers
 
