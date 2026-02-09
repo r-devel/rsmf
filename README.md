@@ -79,4 +79,9 @@ We are grateful to our partners that are providing additional support:
 * George Stagg (Posit)
 * Davis Vaughan (Posit)
 
+### Institutional Support
 
+The University of Birmingham is providing institutional support for this project.
+
+* Aad van Moorsel (Head of the School of Computer Science)
+* Adrian Garcia (Research Software Engineering Service Lead)
