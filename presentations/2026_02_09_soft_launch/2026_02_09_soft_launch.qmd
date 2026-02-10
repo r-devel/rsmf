@@ -1,0 +1,362 @@
+---
+title: "RSMF Soft Launch"
+date: "2025-02-09"
+date-format: long
+format: 
+    revealjs:
+        css: 2026_02_09_soft_launch.css
+        slide-number: true
+---
+
+# Project Overview  {background-color="steelblue"}
+
+## Vision
+
+The Research Software Maintenance Fund supports projects that improve sustainability, reduce technical debt, and enhance community engagement.  
+
+<br>
+
+. . .
+
+<br>
+
+Our project, _Enabling the Next Generation of Contributors to R_, aims to 
+put the R project on a more sustainable footing.
+
+## Aims
+
+1. Build collaboration between R Core developers and advanced contributors
+
+2. Support broader engagement in R contribution.
+
+3. Improve communication between R Core and the wider community.
+
+4. Improve the sustainability of the R Foundation
+
+## WP1: Mentoring Expert Contributors 
+
+Mentees will dedicate ≥ 0.1 FTE, mentored by R Core
+
+* Triage and Fix Issues
+    * Permission to label and close bugs
+    * Goal: >400 issues brought current
+* Mentored Projects Supporting Maintenance/Development
+    * Prioritise projects supporting overall aims
+    * Outputs defined per project
+
+## WP2: Supporting Broader Engagement 
+
+* Develop and implement and a project wide Code of Conduct
+* Evolve the development infrastructure
+    * Improve Weblate administration and integration of translations
+    * Pilot an enhancements discussion process
+    * Explore options for integrated development platforms
+* Maintain R Contributor initiatives (Office Hours, Sprints, Dev Days) and infrastructure (R Dev Guide, R Dev Container)
+* Maintain links with EDIA groups (Forwards, R-Ladies, rainbowR)
+
+## WP3: Improving Communication 
+
+* Migrate R Contributor Slack to Zulip
+* Pilot Discourse as an alternative to the r-project mailing lists
+* Expand use of the R Project website, R Blog and R Foundation social media accounts to engage potential contributors
+
+## WP4: Sustainability of the R Foundation
+
+* Propose new organisational structure enabling wider community representation
+* Establish new channels for fundraising
+
+# RSEs/Community Managers  {background-color="steelblue"}
+
+## Heather Turner
+
+Background
+
+* PhD Statistics
+* Worked in academia, industry and as a freelancer
+* 5 year RSE Fellowship "Sustainability and EDI in the R Project"
+
+R Project
+
+* Package author, e.g. gnm, texor
+* R Foundation activities: useR! organization, R Journal editor
+* R Foundation member since 2015, e.g. Forwards, R-Ladies Global
+* Established R Contribution Working Group in 2020
+
+## Ella Kaye
+
+* Has been working with Heather on the RSE project
+* Also came to R through statistics
+* Packages
+    * basepenguins: updating scripts to use new `penguins` data in base R
+    * pregnancy: for calculating dates related to pregnancy
+* Co-founded rainbowR community for LGBTQ+ folk who code in R.
+* Contributing to R, especially as a result of mentoring novice contributors
+
+# Mentored Contributors - RSMF Funded  {background-color="steelblue"}
+
+## Gabe Becker
+
+* PhD in statistics with Duncan Temple Lang
+* Focused on statistical computing since
+* Worked in the Bioinformatics Department of Genentech, now freelance
+* Contributions to R include ALTREP, in collaboration with Luke Tierney
+* Member of R Contribution Working Group, e.g. on selection committee for R 
+Dev Days
+
+## {#kylie-bemis data-menu-title="Kylie Bemis" background-iframe="contributed_slides/kylie_bemis.pdf"}
+
+## Mikael Jagan
+
+* Worked as research software developer at McMaster University
+    * Mathematical epidemiology, inference for infectious disease models
+* Co-author with Martin Mächler on Matrix package
+    * Efficiency, classes with integer and complex data types
+* Co-author of lme4 package with Martin Mächler and Ben Bolker
+    * Generalized to support structured covariance
+* Maintainer of flint: interface to Flint C library
+    * Extend R with arbitrary precision
+* Developed expertise in S4 and methods package as a result of maintaining 
+above packages   
+    
+
+## Jeroen Ooms - Background
+
+-   Team member of Tidyverse
+-   Lead infrastructure at rOpenSci for 10+ years
+-   Lead developer for <https://r-universe.dev>
+-   Maintains 50+ CRAN packages: see <https://jeroen.r-universe.dev>
+-   Former maintainer of Rtools toolchains
+
+## Jeroen Ooms - Activities/interests
+
+**R-devel activities:**
+
+-   CI tooling for base R, e.g. <https://contributor.r-project.org/svn-dashboard/>
+-   Maintain R SVN mirrors, e.g. <https://github.com/r-devel/r-svn>
+-   Helping Bioconductor modernize infrastructure based on r-universe
+
+**Some current ideas/interests:**
+
+-   Help CRAN build for win-arm64 using free GitHub hardware
+-   Patches to improve install.packages() and friends
+-   Help R project integrate CI tooling, e.g. to test patches (aka PRs)
+
+# Mentored Contributors - Partner Supported {background-color="steelblue"}
+
+## Michael Chirico (Google)
+
+* Member of R Contribution Working Group
+* PhD in economics
+* Quantitative/statistical work in industry since
+* Maintains internal infrastructure for R at Google (~2000 users)
+* R package contributor: data.table and bit64 (64-bit integers in R)
+* Translation: admin of Weblate, translations in data.table
+* R contribution: several tens of patches to R
+* Will split between translation infrastructure and bug fixes for RSMF
+
+## Mossa Reimert (A2-Ai)
+
+* Was postdoc in veterinary epidemiology
+* Now Senior Scientific Software Engineer at A2-Ai
+* Developed tooling to interface Rust with R:
+    * libR_sys binding library and extendr crates to interface R in Rust
+    * rextendr package to scaffold extendr-powered R packages
+* Interested in build process (e.g. make files), tidying C code
+
+## Kevin Ushey (Posit)
+
+* Working on RStudio IDE (even now that Positron is being developed)
+* Maintainer of renv for managing reproducible environments
+
+# Mentored Contributors - Non-RSMF {background-color="steelblue"}
+
+## Lluís Revilla
+
+* Working at Roche
+* Bioconductor: package maintainer, Code of Conduct Committee
+* R contribution:
+    * Spanish and Catalan translation
+    * R bugs, CRAN utilities
+* Working Groups: R Contribution, R Package Repositories
+
+# R Core - RSMF funded {background-color="steelblue"}
+
+## Simon Urbanek
+
+* President of the R Foundation
+* Associate Professor in Statistics, University of Auckland (previously AT&T)
+* R Project: particularly responsible for Mac-related work 
+    * Mac binaries, Mac-builder, Mac GUI, Quartz graphics device
+* R packages: notably rJava providing R/Java interface
+* R Project infrastructure, e.g. Bugzilla, Etherpad
+
+## {#peter-dalgaard data-menu-title="Peter Dalgaard" background-iframe="contributed_slides/peter_dalgaard.pdf"}
+
+# Ad-hoc Mentors {background-color="steelblue"}
+
+## {#michael-lawrence data-menu-title="Michael Lawrence" background-iframe="contributed_slides/michael_lawrence.pdf"}
+
+## Paul Murrell
+
+* Associate Professor in Statistics, University of Auckland
+* Developed grid graphics system
+    * Low-level plotting facilities
+    * Basis for higher-level packages like lattice, ggplot2
+* R Project: particularly responsible for graphics-related issues
+* Mentor at R Dev Days helping novice contributors navigate C code underlying 
+graphical functions
+
+## Deepayan Sarkar
+
+* Professor at the Indian Statistical Institute, Delhi
+* Creator of lattice graphics
+* Work related to documentation
+    * Converting Rd to HTML
+    * Creating 1-page HTML reference manuals for packages (now shown on CRAN landing pages alongside PDF versions) 
+
+## {#luke-tierney data-menu-title="Luke Tierney" background-iframe="contributed_slides/luke_tierney.pdf"}
+
+# Other R Core {background-color="steelblue"}
+
+## Martin Maechler - Background
+
+* Role & Foundation
+    * A founding member of the R Core Development Team (since 1997).
+    * Current Secretary General of the R Foundation.
+* The “Open Source” Catalyst
+    * In 1995, Mächler famously persuaded R’s creators (Ihaka & Gentleman) to release R under the GNU General Public License (GPL)
+* Academic Background
+    * Professor Emeritus and Adjunct Professor at ETH Zürich (Seminar for Statistics).
+   *  Personal Website: <https://people.math.ethz.ch/~maechler/>
+
+## Martin Maechler - Activities
+
+* Expertise:
+    * Numerical accuracy, robust statistics, high-performance computing.
+    * Commit History: One of the most active contributors to base R.
+* Community Support:
+    * Manages dozens of R-related mailing lists, including R-help and R-devel.
+* Developer Tooling
+    * Project Leader for [ESS (Emacs Speaks Statistics)](https://ess.r-project.org/).
+* Maintains Foundational “recommended” R packages:
+    * [Matrix](https://cran.r-project.org/package=Matrix): Support for sparse and dense matrix classes.
+    * [cluster](https://cran.r-project.org/package=cluster): Methods for cluster analysis.
+
+# Contractors (Translation Infrastructure) {background-color="steelblue"}
+
+## Fernando Corrêa 
+
+* PhD candidate and statistician at R6 in São Paulo, Brazil
+* R6 is a data science consultancy firm in Brazil
+    * Books, online courses, and blog posts for local community
+    * Packages: including auth0 for Auth0 authentication in Shiny
+* R6 staff have participated in several R Dev Days
+* R6 will be the contractor for work on translation infrastructure
+    * I will be the main developer
+    * Other members of the Brazilian community will contribute, including 
+    Beatriz Milz
+
+
+## {#bea-milz data-menu-title="Bea Milz" background-iframe="contributed_slides/beatriz_milz.pdf"}
+
+## Gergely Daróczi 
+
+* R package developer, e.g. for logging transforming R objects into R markdown
+* Community organizer: local R User Group and local conferences.
+* Set up Weblate server as experimental platform for contributing translations 
+to base R
+    * Maintaining alongside Mike Chirico
+    
+# Partners {background-color="steelblue"}
+
+## Posit
+
+* Represented at meeting by Hadley Wickham, Chief Scientist
+* Providing support especially software engineering support through
+    * Tidyverse Team
+    * George Stagg (AI team)
+    * Kevin Ushey (RStudio team)
+
+## A2-Ai
+
+* Science and technology solutions company, especially in pharma & life sciences
+    * Open source packages for analytics, technical writing, and visualization
+    * Tools for package management and testing
+* Providing support via
+    * Mossa Reimert (general R contribution)
+    * Devin Pastoor (AI review of CRAN packages)
+
+## R Consortium
+
+* Represented at meeting by Terry Christiani, Executive director
+* R Consortium is a group of business supporting the R project
+* Support different projects in the R ecosystem via
+    * Working Groups
+    * Infrastructure Steering Committee grants
+* Providing support for developer events, especially travel support
+
+## R Foundation
+
+* R Foundation providing travel support for R Core members to attend related 
+events
+* Also acting as legal entity through which R Core members are providing 
+support on a voluntary basis
+
+## rOpenSci 
+
+* Represented at meeting by Noam Ross, Executive Director
+    * Runs software peer review process
+    * Works in epidemiology and data journalism
+* rOpenSci support
+    * Contract of record for some of the freelancers working on the project
+    * Share expertise in community building and outreach
+    
+
+# Next Steps {background-color="steelblue"}
+
+## Contract
+
+* 2nd version of main contract between Birmingham and SSI under review
+* Non-academic approved contractors will need to sign a form to declare recent UK/EU funding (NumFOCUS, Jeroen Ooms, Upshift R Kft and R6 Estatistica e Treinamenos)
+* Contracts with all partners will follow 
+
+## Mentored Cohort
+
+* Mentees will be paired with personal mentors
+    * Guide through the program
+    * Meet approx monthly
+* Bug components will be distributed amongst cohort
+* Projects (currently in Google Doc) will be posted on <https://github.com/r-devel/rsmf/>
+    * Mentees and mentors assigned/express interest
+* Mentee to prepare Q1 plans in discussion with personal and project mentees
+* Chat channel initially on Slack until Zulip ready
+
+## Translations work
+
+* R6 will create a translations patch for R-4.6.0 using existing set-up.
+* From learnings, outline plans to improve processes.
+
+## Other Work in Q1
+
+* Launch Zulip
+* Drafting CoC and associated protocols
+* Planning for 2026 R Dev Days and Sprints
+    * [Rencontres R, Nantes, Fri 19 June](https://pretix.eu/r-contributors/r-dev-day-rr2026/)
+    * CascadiaR, Portland, Fri 26 June
+    * useR!, Warsaw, Fri 10 July
+    * Birmingham, 2-4 September
+* Updates to R Foundation statutes accommodating online voting
+* Ongoing events: Office Hours, participation in EDIA groups
+
+## Communication
+
+* Quarterly reports required by funder 
+* Monthly main team meeting
+    * ~8:30 UTC October - March
+    * Alternating UK/NZ friendly times April - September
+    * Short report-backs, discussion and look ahead
+* Monthly R Contribution Working Group meetings for discussing outreach, 
+development infrastructure and project governance
+* Ad-hoc meetings on specific projects
+
+# Discussion {background-color="steelblue"}

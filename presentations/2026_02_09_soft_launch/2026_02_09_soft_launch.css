@@ -1,0 +1,8 @@
+.reveal section h2{
+    font-size: 1.5em;
+}
+.reveal section p,
+.reveal section ul,
+.reveal section ol {
+    font-size: 0.9em;
+}
