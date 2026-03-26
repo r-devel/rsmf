@@ -9,6 +9,9 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
   - [Num FOCUS (Slack to Zulip)](https://numfocus.medium.com/switching-from-slack-to-zulip-17d517ca285c)
   - [BioConductor (Slack to Zulip)](<https://blog.bioconductor.org/posts/2025-05-29-slack-to-zulip/>)
   - Case study on Zulip website: [Rust programming language community](https://zulip.com/case-studies/rust/)
+- Comparisons of difference chat platforms
+  - A post on moving from Discord to another platform. Includes comparisons of many, including Zulip: <https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/>
+
 - [CSCCE Zulip Tools Trial Recap](https://www.cscce.org/2026/01/23/zulip-tools-trial-recap-find-out-more-about-this-open-source-community-platform/)
   - From Slack to Zulip: Lessons from a Community Migration (Maria Doyle)
     - Two-stage Slack export and import (pilot and feedback, then live move)
@@ -78,6 +81,17 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 - What should the zulipchat be called? r-contributors or r-project?
 
 - What are the R mailing lists? Which could fit as topics in Zulip? How many members do they have? How many of these are active? Can we do some analysis on this? Is there evidence there use has been declining? 
+  - See <https://r-mailing-lists.thecoatlessprofessor.com> and the associated [data](https://github.com/r-mailing-lists/data) and accompanying [blog post](https://blog.thecoatlessprofessor.com/posts/r-mailing-list-archives/) from James Balamuta
+
+  - Or the [r-mailing-list-archive](https://github.com/MichaelChirico/r-mailing-list-archive) from Mike Chirico
 
 - Should we have something like Rust's Forge for the R Project? How would that sit in relation other than the Dev Guide? Part of it (or vice versa) or something separate? For the whole R community or just contributors?
+
+- Should we look into [Discourse](https://discourse.org) now? It might affect how we set up Zulip if we think it can be both a chat and a forum, compared to if we're sure we're going to have a separate forum later.
+
+- Are there communities that use both Zulip and Discourse. If so, how are they splitting that?
+  - Julia: [Zulip](https://julialang.zulipchat.com), [Discourse](https://discourse.julialang.org)
+    - See also [this post](https://discourse.julialang.org/t/access-to-the-julia-zulip-chats/35610) on Discourse about access to Zulip. (also identifies [Mason](https://discourse.julialang.org/u/mason/summary) as a Zulip admin for Julia)
+    - And [this post](https://discourse.julialang.org/t/come-join-the-julia-zulip-chat/36070/9) annoucing the Julia Zulip (and subsequent updates on how its going)
+
 
