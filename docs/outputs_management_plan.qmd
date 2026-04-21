@@ -1,0 +1,70 @@
+---
+title: "Outputs Management Plan"
+subtitle: "Enabling the Next Generation of Contributors to R"
+date: "2026-03-31"
+date-format: long
+format: docx
+editor: visual
+---
+
+## Output summary
+
+**What outputs (including software) are expected to be produced through this work?**
+
+The work by mentored contributors and contractors may produce:
+
+- Patches to the source code of R
+- Scripts, workflows or containers to use in testing R or add-on packages, or to facilitate development of R
+- Documentation
+- Websites
+
+The work on supporting broader engagement is planned to produce:
+
+- A code of conduct and related policies/protocols
+- Proposals for improvements to the R development process
+- Updates to the containerized development environment for R
+- Updates to contributor-focused documentation
+- Chat/discussion platforms 
+- Updates to R project websites
+- Updates to the R Foundation statutes
+- Blog posts on the R Blog
+
+These outputs are related to the goals of the project: to engage people in contributing to the development of R; maintain and improve infrastructure supporting the development of R and facilitating contribution; improve communication and governance.
+
+## Data collection
+
+We will collect personal data through application/registration forms for the purpose of organising outreach events. Additional demographic data will be collected for the purpose of monitoring diversity, through optional questions. Only summaries of demographic data will be shared, aggregated across multiple events when there are low numbers to ensure anonymity. 
+
+We will obtain consent to use data for additional purposes, e.g. to use photos in reports of events or to add email addresses to a contact list for sharing announcements of future events.
+
+## Data storage
+
+We will use the R Contributors pretix.eu instance for registration and the R Foundation LimeSurvey instance for application forms, both cloud-hosted on servers in the EU. Exported data will be stored on the University of Birmingham OneDrive of the data manager, in password protected files. Subsets of the data will be shared with specific organisers/administrators as required, separating out the data that is strictly necessary for the purpose. Event data will be stored until 6 months after the event, after which only participant lists and demographic summaries will be kept, plus the data (photos, emails) where consent has been given for further use. 
+
+## Output storage
+
+Code and technical documentation will be version-controlled so that local copies are backed up in remote repositories, which will usually be public repositories under the R-devel GitHub organisation on GitHub. Notes and proposals will often be drafted in private first, stored locally with a secure backup, such as a university-managed OneDrive.
+
+## Output sharing
+
+Outputs will be shared openly, through public code repositories or websites. 
+
+- Scripts and workflows will be community-maintained under the R-devel GitHub organisation
+- Accepted patches to the development version of R will be released in patch or major/minor updates of R, as decided by the R Core Team, under GPL-2 | GPL-3.
+- Documentation that is distributed with R will also be under the GPL-2 | GPL-3 license.
+- Updates to the R Dev Container will be released under the MIT license.
+- Updates to the R Dev Guide will be released under the CC BY 4.0 license.
+- Updates to the R Foundation statutes and any new policies such as the code of conduct will be published on the R project website, r-project.org.
+- Blogs posts will be freely accessible and may be posted on https://blog.r-project.org/, https://r-consortium.org/blog/, or other relevant websites. 
+- Chat/discussion platforms will be open to join subject to following membership terms and conditions. Some content may be private to members to ensure a safe space for discussion.
+
+These outputs will benefit all users of R due to improvements in R and improved CRAN package testing, but they will particularly benefit new and existing contributors to R as the development process will be more transparent, and it will be easier to engage with the R Core Team. The outputs may also be useful to other open source projects – certainly we expect to learn from other open source projects as we work on these outputs for the R project.
+
+The outputs will be shared as soon as they are ready – often they will be shared during the process of development so that interested parties can follow development and give feedback, e.g. via commenting on a GitHub issue. Some outputs, e.g. a patch fixing a bug, or a blog post, may not need further update. For other outputs we will balance work on updates against other planned work, prioritising activity with greater impact.
+
+## Legal, ethical or environmental considerations
+
+We will ensure that the data collection and processing for event organisation is GDPR compliant.
+Some work on this project may involve the use of AI (large language models). This will be done in a responsible way, with team members or collaborators overseeing the process: creating prompts, reviewing outputs, editing outputs directly or interacting with the AI to correct or refine outputs, and validating any code produced. By keeping a human in the loop, outputs will be copyrightable and suitable for release under an open source license. Authors will be expected to understand all code/documentation that they will maintain. Code contributed to open source projects should be well tested; authors and code reviewers should ensure that at least as a team they understand each line of code in the contribution.
+
+Large language models have a high environmental impact, therefore we will encourage team members to use AI in moderation and to consider if alternative approaches can achieve similar results. Another area with potentially high environmental cost is automated testing. Team members will be asked to record activities with heavy computational cost, so that we can consider both the value of these activities and how the cost may be minimised.
