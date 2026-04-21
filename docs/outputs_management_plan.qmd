@@ -65,6 +65,7 @@ The outputs will be shared as soon as they are ready – often they will be shar
 ## Legal, ethical or environmental considerations
 
 We will ensure that the data collection and processing for event organisation is GDPR compliant.
+
 Some work on this project may involve the use of AI (large language models). This will be done in a responsible way, with team members or collaborators overseeing the process: creating prompts, reviewing outputs, editing outputs directly or interacting with the AI to correct or refine outputs, and validating any code produced. By keeping a human in the loop, outputs will be copyrightable and suitable for release under an open source license. Authors will be expected to understand all code/documentation that they will maintain. Code contributed to open source projects should be well tested; authors and code reviewers should ensure that at least as a team they understand each line of code in the contribution.
 
 Large language models have a high environmental impact, therefore we will encourage team members to use AI in moderation and to consider if alternative approaches can achieve similar results. Another area with potentially high environmental cost is automated testing. Team members will be asked to record activities with heavy computational cost, so that we can consider both the value of these activities and how the cost may be minimised.
