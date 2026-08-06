@@ -11,10 +11,10 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 - Blog posts from communities about their transitions:
   - [Num FOCUS (Slack to Zulip)](https://numfocus.medium.com/switching-from-slack-to-zulip-17d517ca285c)
   - [BioConductor (Slack to Zulip)](<https://blog.bioconductor.org/posts/2025-05-29-slack-to-zulip/>)
+  - [stdlib (Gitter to Zulip)](https://blog.stdlib.io/announcing-zulip/)
   - Case study on Zulip website: [Rust programming language community](https://zulip.com/case-studies/rust/)
 - Comparisons of difference chat platforms
   - A post on moving from Discord to another platform. Includes comparisons of many, including Zulip: <https://no-bull.sh/blog/2026/02/16/in-search-of-a-discord-replacement/>
-
 - [CSCCE Zulip Tools Trial Recap](https://www.cscce.org/2026/01/23/zulip-tools-trial-recap-find-out-more-about-this-open-source-community-platform/)
   - From Slack to Zulip: Lessons from a Community Migration (Maria Doyle)
     - Two-stage Slack export and import (pilot and feedback, then live move) - this worked well for them
@@ -30,7 +30,7 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
     - There are some accessibility issues for screen-readers - these need flagging early on
     - Free standard tier for open source projects
       - Only need to write 1-2 paragraphs
-  - Two communities, One Zulip (Samantha Wittke)
+  - Two Communities, One Zulip (Samantha Wittke)
     - Can organise channels into folders
     - Can subscribe to topics and channels, or mute
     - Can have default and closed channels
@@ -126,6 +126,7 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 - Can we import some history but not everything? We might not, say, want to copy over the channel structure.
 - Need to check we can't see user email addresses (Maria can help with that)
 - How will the Zulip be moderated? See Rust's forge for [how they do this](https://forge.rust-lang.org/platforms/zulip/moderation.html).
+- [Announcement blog post r.e. move to Zulip for stdlib](https://blog.stdlib.io/announcing-zulip/)
 
 ## Towards a migration/onboarding process
 
@@ -133,6 +134,18 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 - Set up channel structure
   - Which will everyone be subscribed to, and which can be joined later?
   - What's private/public (maybe web-public)
+  - Have a #zulip channel
+- **Need to decide email visibility policy** (see [chat on Claude](https://claude.ai/share/f9520029-4350-46aa-9968-951ba4eabce5) about this). Also see organisation settings -> default user settings # Privacy settings
+- **Do we want groups?**
+- **Currently need to be invitated to join this organisation. Is that what we want? If not, how to change this?**
+  - Organisation settings -> organisation permissions -> Joining the organisation - **Needs HT to change this**
+- Plan for migrating user accounts from Slack to Zulip
+  - Have an opt-in: advertise via:
+    - Contact people from past R Dev Days
+    - @channel on Slack
+    - Social media
+    - Blog post
+- Set up message on <https://r-project.zulipchat.com/login/> (Bioconductor has a nice one)
 - Set up Welcome Bot in Direct Messages
   - In BioConductor, there's a general Zulip message, and a welcome from Maria, linking to CoC, key channels, and resources if need help.
 - Write a user guide
@@ -149,9 +162,17 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 - Full launch / shut down Slack
   - Full export/import (for BioC, this captured the addition couple of week of messages - on top of everything else, and the full import overwrote the previous test import. Conversely, NumFOCUS was clear that there was a week or so deadtime for the transition when Slack messages weren't being captured)
   - Can we get a redirect from Slack to Zulip? Or some kind of message.
+  - 
 - Questions for HT on creating the organisation:
   - Name (R-Project, R Project, The R Project for Statistical Computing)
   - What email address? Might make sense to do this with an R Foundation email address (rather than a bham one, or personal ones). 
+- From Mossa r.e. Zulip. Think about integrations:
+  - Bugzilla 
+  - github.com/r-devel/r-svn/pulls
+  - Can we integrate the mailing lists? Or is this more of a tie-in with a forum
+- [x] [Linkifiers](https://zulip.com/help/add-a-custom-linkifier)
+- Wide organisation logo: 200 x 25px (dark and light themes)
+
 
 
 
