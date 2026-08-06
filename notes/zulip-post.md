@@ -2,7 +2,7 @@ The R Contributor community is moving its chat platform from Slack to [Zulip](ht
 
 ## Motivation
 
-When we started using Slack there was a generous free tier. Over time, the free offering has becoming more restrictive. In particular, any posts older than 90 days are no longer visible. Since that announcment, we have made manual exports of our Slack data every 90 days and made them available as JSON files on GitHub, but this clearly far from optimal, and we have sought an alternative, and moreover one in line with our open-source principles.
+When we started using Slack (back in November 2020) there was a generous free tier. Over time, the free offering has becoming more restrictive. In particular, any posts older than 90 days are no longer visible. Since that announcment, we have made manual exports of our Slack data every 90 days and made them available as JSON files on GitHub, but this clearly far from optimal, and we have sought an alternative, and moreover one in line with our open-source principles.
 
 ## Why Zulip
 
