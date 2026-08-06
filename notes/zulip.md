@@ -132,10 +132,11 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 
 ## Questions/notes for Zulip support
 
-- Importing chat history
-- NOT importing users
+- Importing chat history NOT importing users
 - What happens to imported messages where the message author is not on Zulip?
 - If instance is going to be deleted as part of process, will current setting be preserved on relaunch?
+- Can we import into an already active Zulip?
+  - If we already have chat in a `general` channel in Zulip and then want to import `general` from Slack, will the latter be added to the former?
 
 ## Towards a migration/onboarding process
 
@@ -148,8 +149,11 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
   - Which will everyone be subscribed to, and which can be joined later?
 
   - What's private/public (maybe web-public)
-
+    - Start with **nothing** web-public. Discuss at R Project Sprint
+  
   - Have a #zulip channel
+  
+  - See <https://developer.r-project.org/etherpad/p/zulip>
 - [x] **Need to decide email visibility policy** (see [chat on Claude](https://claude.ai/share/f9520029-4350-46aa-9968-951ba4eabce5) about this). Also see organisation settings -> default user settings # Privacy settings
   - Emails visable only to admins
 - Do we want groups?
@@ -168,7 +172,7 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
     - [ ] @channel in #general on Slack
     - [ ] Social media
     - [ ] Blog post
-- [ ] Set up message on <https://r-project.zulipchat.com/login/> (Bioconductor has a nice one). 
+- [x] Set up message on <https://r-project.zulipchat.com/login/> 
 - [ ] Set up Welcome Bot in Direct Messages. See [docs](https://zulip.com/help/configure-a-custom-welcome-message).
 
   - In BioConductor, there's a general Zulip message, and a welcome from Maria, linking to CoC, key channels, and resources if need help.
@@ -196,6 +200,7 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 
 ### Full launch phase
 
+- [ ] Set up <https://chat.r-project.org> and have it redirect to <https://r-project.zulipchat.com>
 - [ ] Update links on R Contributor website (and elsewhere) to point to Zulip.
   - Sunset the Slack page on the contributor website and add the Zulip guide as a page there
 - [ ] Set up bots (e.g. working group reminders) 
