@@ -19,12 +19,12 @@ Zulip is the right fit for the R community:
 
 ## Timeline
 
-- August XXth - September 13th (**?**): Testing period with invited contributors (members of the [R Contribution Working Group](https://contributor.r-project.org/working-group.html), [RSMF project](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/index.html), and participants in the [R Project Sprint 2026](https://contributor.r-project.org/r-project-sprint-2026/))
-- September 14th (**?**): R Project Zulip open for general sign-up **AND** Slack will no longer be monitored or used for community communication.
+- August XXth - September 27th (**?**): Testing period with invited contributors (members of the [R Contribution Working Group](https://contributor.r-project.org/working-group.html), [RSMF project](https://blog.r-project.org/2025/12/17/rsmf-enabling-the-next-generation-of-contributors-to-r/index.html), and participants in the [R Project Sprint 2026](https://contributor.r-project.org/r-project-sprint-2026/))
+- September 28th (**?**): R Project Zulip open for general sign-up **AND** Slack will no longer be monitored or used for community communication.
 
 ## Joining Zulip
 
-- Sign-up (from Sept 14th) at <https://r-project.zulipchat.com>. 
+- Sign-up (from Sept 28th) at <https://r-project.zulipchat.com>. 
   - Note that, for GDPR compliance, we will *not* be migrating members from Slack to Zulip.
 - Read our [Zulip guide for R Contributors](https://contributor.r-project.org/zulip) **CONFIRM LINK, AND NEED TO PUBLISH**.
 - We encourage you to read Zulip's [getting started guide](https://zulip.com/help/getting-started-with-zulip).
@@ -32,5 +32,7 @@ Zulip is the right fit for the R community:
 
 ## Acknowledgements
 
-- Moving the R Contributor chat to Zulip is a deliverable of the RSMF grant, and made possible by that funding. **Do we need to give a grant number here?**
+- This work was supported by the Research Software Maintenance Fund,
+  managed by the Software Sustainability Institute and funded by UKRI grant
+  reference AH/Z000114/1.
 - We're grateful to Josh Triplett from the Rust Community, and Maria Doyle from Bioconductor, for their advice on Zulip and conversations about the transition process.
