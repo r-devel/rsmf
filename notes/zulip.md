@@ -176,11 +176,14 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 - [ ] Set up Welcome Bot in Direct Messages. See [docs](https://zulip.com/help/configure-a-custom-welcome-message).
 
   - In BioConductor, there's a general Zulip message, and a welcome from Maria, linking to CoC, key channels, and resources if need help.
+  - This is easier to do once the channels are in place
+  - Add something about updating profile: https://r-project.zulipchat.com/#settings/profile
 - [ ] Write a user guide
   - Can base on Rust, Bioconductor, CSCCE has a tool sheet, NumFocus
   - NumFocus had a form to OPT OUT of being imported
   - Guide to using Zulip with e-mail - [(Claude's notes)](https://claude.ai/share/a88493b8-aec6-46bd-b0e3-51370279c21b).
-  - HT to review
+  - [ ] HT to review
+  - [ ] Add something about updating profile: https://r-project.zulipchat.com/#settings/profile
 
 ### Testing phase
 
@@ -200,6 +203,11 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 
 ### Full launch phase
 
+- [ ] Organisation settings -> onboarding -> Send a cusctom Welcome Bot message to new users
+  - We can use (start with?) the same text that we used for the custom invitations, so make sure to keep a copy of that!
+- [ ] https://r-project.zulipchat.com/help/restrict-permissions-of-new-members
+- [ ] Bot that notifies about new channels (is this already there by default?)
+- [ ] Route emails from R-announce mailing list to announce channel (and update the Zulip guide + maybe channel description)
 - [ ] Set up <https://chat.r-project.org> and have it redirect to <https://r-project.zulipchat.com>
 - [ ] Update links on R Contributor website (and elsewhere) to point to Zulip.
   - Sunset the Slack page on the contributor website and add the Zulip guide as a page there
@@ -269,3 +277,13 @@ Notes:
 - Bioconductor does have a separate support forum - would like to move it to Discourse
 - Bring in different working groups, e.g. R Consortium WGs (though they have their own Slack)
 - Could be a good space for interaction between triage team and R Core (probably private)
+
+
+
+## Settings we have configured
+
+(May be others - we didn't keep track of this when we first started setting up Zulip)
+
+- Organise settings -> Compose settings -> No "general chat" topic
+- Restricted creating channels to admins (so we can keep them organised)
+- Added a moderators group and enabled moderation requests as described here: https://zulip.com/help/report-a-message, also ran through https://r-project.zulipchat.com/help/moderating-open-organizations to check we have everything in place that we want.
