@@ -1,0 +1,228 @@
+---
+title: "Enabling the Next Generation of Contributors to R"
+subtitle: "Tidy team meeting"
+author: "Heather Turner"
+date: "2026-08-17"
+date-format: long
+format: 
+    revealjs:
+        css: extra.css
+        slide-number: true
+---
+
+# Project Overview  {background-color="steelblue"}
+
+## Background
+
+The Research Software Maintenance Fund supports projects that improve sustainability, reduce technical debt, and enhance community engagement.  
+
+<br>
+
+. . .
+
+<br>
+
+Our RSMF-funded project, _Enabling the Next Generation of Contributors to R_, aims to 
+put the R project on a more sustainable footing.
+
+## Aims
+
+1. Build collaboration between R Core developers and advanced contributors
+
+2. Support broader engagement in R contribution.
+
+3. Improve communication between R Core and the wider community.
+
+4. Improve the sustainability of the R Foundation
+
+# WP1: Mentored cohort  {background-color="steelblue"}
+
+## Mentored cohort: Who's involved
+
+Mentees (10-20% FTE)
+
+* RSMF-funded: Gabe Becker, Kylie Bemis, Mikael Jagan, Jeroen Ooms
+* Partner-funded: Kevin Ushey (Posit), Mossa Reimert (A2-Ai), Mike Chirico 
+(Google)
+
+R Core mentors:
+
+* RSMF-funded (10% FTE): Simon Urbanek, Peter Dalgaard
+* Ad-hoc: Michael Lawrence, Paul Murrell, Kurt Hornik
+
+## Triage Team
+
+* Established Triage Team with mentee cohort + Lluís Revilla and Ivan Krylov
+
+* Distributed Bugzilla components, e.g. Kevin allocated I/O, Low-level and 
+Windows
+
+* Developed [Triaging Team Guidelines](https://cryptpad.fr/doc/#/2/doc/edit/8hoNOVRXP7vMH3FF2TCm2d9e/)
+
+    * Basic review: duplicate? contributed package? ...
+    * Deeper review: reprex? root cause? proposed solution?
+    
+## Triaging progress
+
+Since TRIAGED status introduced (21 April 2026)
+
+|Current Status |Resolution | Count|
+|:--------------|:----------|-----:|
+|TRIAGED        |           |    11|
+|CLOSED         |FIXED      |     4|
+|CLOSED         |WONTFIX    |     1|
+|CONFIRMED      |           |     1|
+|REOPENED       |           |     1|
+|**Total**          |           |    **18**|
+
+:::{.notes}
+- First draft of guidelines (how to use TRIAGED status) shared 3 June 2026
+- Have brought bug forward even if no resolution
+- Triagers also open own issues
+:::
+
+## Mentored projects
+
+Projects supporting development/maintenance of R, including
+
+* Jeroen Ooms: GitHub actions for checking CRAN packages on Linux ARM 64:  
+<https://github.com/r-devel/linux-arm64-checks>
+* Kevin Ushey: Fuzz testing R to identify edge cases and bugs
+* Gabe Becker: Updating `install.package()` to use local dependencies with 
+`repos = NULL`
+* Mikael Jagan: Reviewing results from `rchk` 
+
+# WP2: Supporting Broader Engagement   {background-color="steelblue"}
+
+## Engagement: Who's involved
+
+RSMF-funded RSEs/community managers
+
+* Heather Turner (70% FTE)
+* Ella Kaye (30% FTE)
+
+Translation team
+
+* Weblate admins (ad-hoc): Gergely Daróczi, Mike Chirico
+* RSMF contractors: Fernando Corrêa, Beatriz Milz
+
+## Engagement Activities (so far)
+
+* [R Contributor Office Hours](https://contributor.r-project.org/events/office-hours/)
+* R Dev Days:
+    * Rencontres R, June 19, Nantes
+    * CascadiaR, June 26, Portland
+    * useR! 2026, July 10, Warsaw
+* R Project Sprint 2026, 1-3 September, Birmingham
+* Maintaining infrastructure: [R Dev Container](https://contributor.r-project.org/r-dev-env/)
+* Maintain links with Forwards, RLadies+, rainbowR
+
+## Engagement Activities (roadmap)
+
+* Develop and implement and a project wide Code of Conduct
+* Evolve the development infrastructure
+    * Improve Weblate administration and integration of translations
+    * Pilot an enhancements discussion process
+    * Explore options for integrated development platforms
+
+# WP3: Improving Communication   {background-color="steelblue"}
+
+## Communication: Who's involved
+
+RSMF-funded RSEs/community managers (Heather Turner and Ella Kaye)
+
+RSMF team and partners (whole team) as contributors
+
+## Communication: Activities (so far)
+
+* R Project Zulip
+    * Migrating R Contributor Slack and expanding scope
+    * Standard cloud instance supported by Zulip under open source programme
+    * Inviting RSMF whole team, R Contribution WG and R Foundation this week
+    * Full launch late September
+* Establish R Foundation social media team
+
+## Communication: Activities (roadmap)
+
+* Pilot Discourse as an alternative to the r-project mailing lists
+* Expand use of the R Project website, R Blog and R Foundation social media 
+accounts to engage potential contributors
+
+# WP4: Sustainability of the R Foundation {background-color="steelblue"}
+
+## Overview
+
+Who's involved: 
+
+* RSMF-funded: Heather Turner
+* Ad-hoc: R Foundation members
+
+Roadmap:
+
+* Propose new organisational structure enabling wider community representation
+* Establish new channels for fundraising
+
+# Partners {background-color="steelblue"}
+
+## Partners: Who's involved
+
+* R Consortium: funding for R Project Sprints, travel funding for RSMF team
+* R Foundation: mentoring, travel funding for R Core to attend events
+* Google: mentee time and travel funding
+* A2-Ai: mentee time and travel funding, additional staff time
+
+. . .
+
+* Posit: mentee time and travel funding, **additional extra time as needed 
+from the broader tidyverse team** (~1 day/week person-time across the team)
+
+# Opportunities {background-color="steelblue"}
+
+## Bug triage
+
+Current components with no one allocated as triager:
+
+* Add-ons (7): package-related issues, issues in R Core maintained packages
+* Models (28): lm, glm, lme, etc
+
+Triage team has more expertise in software engineering than statistics - 
+Analyses component could be passed on.
+
+## Mini projects (1)
+
+Low-level
+
+* Type and shape annotations to R (Michael Lawrence) [#51](https://github.com/r-devel/rsmf/issues/51)
+* Versioning of formal classes (Gabe Becker) [#19](https://github.com/r-devel/rsmf/issues/19)
+* Apply security fixes to old releases [#17](https://github.com/r-devel/rsmf/issues/17)
+* Using LLMs to identify bottlenecks (Robert Gentleman) [#14](https://github.com/r-devel/rsmf/issues/14)
+* Extended testing of R-devel [#5](https://github.com/r-devel/rsmf/issues/5)
+
+Math
+
+* Accuracy of mathematical functions (Mikael Jagan) [#9](https://github.com/r-devel/rsmf/issues/9)
+
+## Mini projects (2)
+
+Doc
+
+* Review R-intro and R-FAQ (Deepayan Sarkar) [#15](https://github.com/r-devel/rsmf/issues/15),  [#16](https://github.com/r-devel/rsmf/issues/16)
+* Modernising CRAN website (Kurt Hornik) [#10](https://github.com/r-devel/rsmf/issues/10)
+* Demystifying Autotools, pkg-config in blog post [#8](https://github.com/r-devel/rsmf/issues/8) 
+
+CRAN
+
+* Broader testing of CRAN packages (Kurt Hornik) [#7](https://github.com/r-devel/rsmf/issues/7)
+* Using AI to enhance the CRAN check (Kurt Hornik, A2-Ai) [#3](https://github.com/r-devel/rsmf/issues/3)
+* Testing ALTREP and C-level access patterns [#12](https://github.com/r-devel/rsmf/issues/12)
+
+## Engagement
+
+* [R Dev Container](https://contributor.r-project.org/r-dev-env/) development
+    * Local use on macOS and Windows
+    * Using Positron vs VS Code
+    
+* [R Dev Guide](https://github.com/r-devel/rdevguide) improvements
+    * C for R contributors doc (building on http://adv-r.had.co.nz/C-interface.html)?
+
+* US R Dev Day/Sprint 2027 - potential hosts?
