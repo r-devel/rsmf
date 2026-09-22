@@ -1,28 +1,28 @@
 ---
-title: "Zulip Chat Platform for the R Project"
+title: "Zulip Chat for the R Project"
 author: "Ella Kaye and Heather Turner"
 date: "2026-09-22"
 categories: ["External Contributions", "R Core", "R Foundation"]
 tags: ["mentoring", "development infrastructure"]
 ---
 
-The R Project is now using the [Zulip](https://zulip.com) chat platform for 
+The R Project now has a [Zulip](https://zulip.com) instance for 
 informal chat about developing, maintaining and supporting R. The Zulip 
 (pronounced "zoo-lip") will replace the R Contributors Slack group, with 
 a slightly broader scope, also covering wider R Foundation activities. 
 
 The [R-devel mailing list](https://www.r-project.org/mail.html#r-devel) remains 
 the official channel for technical discussions about R's development and 
-[R's Bugzilla](https://bugs.r-project.org/) remains the official channel 
+[R's Bugzilla](https://bugs.r-project.org/) remains the official place 
 to report bugs and open feature requests. However, the Zulip provides a 
 supportive space to get initial feedback on ideas and work in progress, 
 especially for novice contributors. It also provides a useful communication 
-channel for working groups and events such as [R Dev Days](https://contributor.r-project.org/events/r-dev-days/).
+channel for working groups and collaborative events such as [R Dev Days](https://contributor.r-project.org/events/r-dev-days/).
 
 ## Motivation
 
 When the [R Contribution Working Group](https://contributor.r-project.org/working-group.html) 
-set up the R Contributors Slack back in November 2020, the free tier gave 
+set up the R Contributors Slack in November 2020, the free tier gave 
 access to the most recent 10,000 messages, which would have covered several 
 years of messages. Since September 2020, posts older than 90 days are no longer 
 visible, making it difficult to collaborate on tasks that span several months, 
@@ -46,7 +46,7 @@ with core developers.
 Zulip is a better fit for The R Project: not only is it open source, but as a 
 company, [Zulip supports open source](https://zulip.com/for/open-source/). 
 They are sponsoring The R Project by providing a free standard cloud plan, 
-allowing us to keep our full chat history.
+enabling us to keep our full chat history.
 
 A number of other open source projects are using Zulip, including Python, 
 Julia and Rust. Bioconductor and NumFOCUS moved from Slack to Zulip last year. 
@@ -95,7 +95,7 @@ migrating members from Slack to Zulip automatically.
 - A welcome bot will greet you when you first join with further pointers on 
 effective participation.
 
-We encourage you to read Zulip's own [getting started guide](https://zulip.com/help/getting-started-with-zulip) to learn more.
+We encourage you to read Zulip's [getting started guide](https://zulip.com/help/getting-started-with-zulip) to learn more.
 
 ## Acknowledgements
 
