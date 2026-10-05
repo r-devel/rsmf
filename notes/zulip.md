@@ -144,15 +144,15 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
 
 - [x] Decide on purpose of Zulip
   - Start with R Contributors but call the group r-project to keep options open for future
-- [ ] Set up channel structure
+- [x] Set up channel structure
 
   - Which will everyone be subscribed to, and which can be joined later?
 
   - What's private/public (maybe web-public)
     - Start with **nothing** web-public. Discuss at R Project Sprint
-  
+
   - Have a #zulip channel
-  
+
   - See <https://developer.r-project.org/etherpad/p/zulip>
 - [x] **Need to decide email visibility policy** (see [chat on Claude](https://claude.ai/share/f9520029-4350-46aa-9968-951ba4eabce5) about this). Also see organisation settings -> default user settings # Privacy settings
   - Emails visable only to admins
@@ -161,8 +161,7 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
     - [ ] Triagers
   - later
     - [ ] weblate admins
-
-- [ ] Currently need to be invitated to join this organisation. Is that what we want? If not, how to change this?
+- Currently need to be invitated to join this organisation. Is that what we want? If not, how to change this?
   - Organisation settings -> organisation permissions -> Joining the organisation - **Needs owner to change this**
 - Plan for migrating user accounts from Slack to Zulip
 
@@ -173,12 +172,12 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
     - [ ] Social media
     - [ ] Blog post
 - [x] Set up message on <https://r-project.zulipchat.com/login/> 
-- [ ] Set up Welcome Bot in Direct Messages. See [docs](https://zulip.com/help/configure-a-custom-welcome-message).
+- [x] Set up Welcome Bot in Direct Messages. See [docs](https://zulip.com/help/configure-a-custom-welcome-message).
 
   - In BioConductor, there's a general Zulip message, and a welcome from Maria, linking to CoC, key channels, and resources if need help.
   - This is easier to do once the channels are in place
   - Add something about updating profile: https://r-project.zulipchat.com/#settings/profile
-- [ ] Write a user guide
+- [x] Write a user guide
   - Can base on Rust, Bioconductor, CSCCE has a tool sheet, NumFocus
   - NumFocus had a form to OPT OUT of being imported
   - Guide to using Zulip with e-mail - [(Claude's notes)](https://claude.ai/share/a88493b8-aec6-46bd-b0e3-51370279c21b).
@@ -192,31 +191,26 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
   - Clear timeline
   - Note that can use Zulip with e-mail
 - Soft-launch invitation
-  - [ ] Draft invitation email and send to 
-    - [ ] RSMF
-    - [ ] RCWG
-    - [ ] R Project Sprint participants
+  - [x] Draft invitation email and send to 
+    - [x] RSMF
+    - [x] RCWG
+    - [x] R Project Sprint participants
 - [ ] Messages in the Slack about impending shut-down
-- [ ] Import Slack history 'via support'
-  - [ ] Write to support@zulip.com 
-  - Waiting to hear back from Zulip sales r.e. managing this
+- [ ] Wide organisation logo: 200 x 25px (dark and light themes)
 
 ### Full launch phase
 
-- [ ] Organisation settings -> onboarding -> Send a cusctom Welcome Bot message to new users
+- [x] Organisation settings -> onboarding -> Send a cusctom Welcome Bot message to new users
   - We can use (start with?) the same text that we used for the custom invitations, so make sure to keep a copy of that!
 - [ ] https://r-project.zulipchat.com/help/restrict-permissions-of-new-members
 - [ ] Bot that notifies about new channels (is this already there by default?)
-- [ ] Route emails from R-announce mailing list to announce channel (and update the Zulip guide + maybe channel description)
 - [ ] Set up <https://chat.r-project.org> and have it redirect to <https://r-project.zulipchat.com>
 - [ ] Update links on R Contributor website (and elsewhere) to point to Zulip.
   - Sunset the Slack page on the contributor website and add the Zulip guide as a page there
-- [ ] Set up bots (e.g. working group reminders) 
-  - Maria looking into this and will let us know how that goes
 - Full launch / shut down Slack
   - Full export/import (for BioC, this captured the addition couple of week of messages - on top of everything else, and the full import overwrote the previous test import. Conversely, NumFOCUS was clear that there was a week or so deadtime for the transition when Slack messages weren't being captured)
     - Can we get a redirect from Slack to Zulip? Or some kind of message.
-- Questions for HT on creating the organisation:
+- [x] Questions for HT on creating the organisation:
   - Name (R-Project, R Project, The R Project for Statistical Computing)
   - What email address? Might make sense to do this with an R Foundation email address (rather than a bham one, or personal ones). 
 - From Mossa r.e. Zulip. Think about integrations:
@@ -224,9 +218,15 @@ See also <https://github.com/r-devel/rsmf/issues/25>.
   - github.com/r-devel/r-svn/pulls
   - Can we integrate the mailing lists? Or is this more of a tie-in with a forum
 - [x] [Linkifiers](https://zulip.com/help/add-a-custom-linkifier)
-- Wide organisation logo: 200 x 25px (dark and light themes)
 
 
+
+### (Could be) later
+
+- [ ] Route emails from R-announce mailing list to announce channel (and update the Zulip guide + maybe channel description)
+
+- [ ] Set up bots (e.g. working group reminders) 
+  - Maria looking into this and will let us know how that goes
 
 
 
@@ -287,3 +287,47 @@ Notes:
 - Organise settings -> Compose settings -> No "general chat" topic
 - Restricted creating channels to admins (so we can keep them organised)
 - Added a moderators group and enabled moderation requests as described here: https://zulip.com/help/report-a-message, also ran through https://r-project.zulipchat.com/help/moderating-open-organizations to check we have everything in place that we want.
+- Some channels are "moderated": Moderated topics - DM admins to suggest a topic to add.
+
+
+
+## Welcome Bot message
+
+# Welcome to The R Project Zulip! :wave: 
+
+We're thrilled to have you here! Whether you're an existing contributor or just getting started, we hope you find this space welcoming and inspiring.
+
+## Start here
+
+Please take a moment to read [The R Project Zulip Guide](https://contributor.r-project.org/r-zulip-guide) which includes
+
+- a posting guide
+- tips for getting started
+- the Code of Conduct
+
+## Default channels
+
+You have been subscribed to some default channels:
+
+- GENERAL \> introductions: Say hello and a little bit about yourself
+
+- GENERAL \> announce: Announcements from the admins
+- GENERAL \> events: Virtual/in-person meet-ups, study groups, book clubs, etc**\***
+- GENERAL \> paid-work: Job opportunties in open source development**\***
+- GENERAL \> volunteer-work: Unpaid opportunities in open source development**\***
+- GENERAL \> general: Chat of general interest across the R project (use
+  sparingly!)
+- GENERAL \> random: Informal conversation and other events/projects not directly related to R contribution.
+- ZULIP \> sandbox: Experiment with Zulip here
+- ZULIP \> zulip: Questions and discussion about using Zulip
+
+## Next steps
+
+- Update your profile (⚙️ -> Personal settings)
+- Say hello in #introductions
+- Learn how to [browse all channels](https://docs.zulip.com/help/introduction-to-channels) and subscribe to any you're interested in. Have an idea for a new channel? Tell us in #channel-requests.
+- Use the [Recent conversations](https://zulip.com/help/finding-a-conversation-to-read#from-recent-conversations) view to catch up on what's happening.
+
+## Feedback welcome
+
+We're Heather Turner and Ella Kaye. Feel free to send us a direct message (to Administrators) if you have questions, suggestions, or need help navigating the community.
